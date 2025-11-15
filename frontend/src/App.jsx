@@ -8,6 +8,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <h1>hi this is landing page</h1>
       <Routes>
         <Route path='/unit1' element={<University1/>}/>
         <Route path='/unit2' element={<University2/>}/>
